@@ -1,4 +1,5 @@
-import { createFileRoute, redirect } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
+import { LegacySite } from "../components/LegacySite";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -15,8 +16,5 @@ export const Route = createFileRoute("/")({
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
-  beforeLoad: () => {
-    throw redirect({ href: "/index.html" });
-  },
-  component: () => null,
+  component: () => <LegacySite page="home" />,
 });
