@@ -880,4 +880,8 @@ a.btn-sm-square i { font-size: 16px; }
 .fa-instagram, .fa-instagram-square { color: #E1306C !important; }
 .fa-twitter, .fa-x-twitter { color: #1DA1F2 !important; }
 .fa-linkedin-in, .fa-linkedin { color: #0A66C2 !important; }
-.brand-wordmark{height:62px;display:flex;flex-direction:column;justify-content:center;color:#fff;line-height:1.08;white-space:nowrap}.brand-wordmark strong{font-family:"Playfair Display",serif;font-size:1.02rem;font-weight:600}.brand-wordmark small{font-family:"Work Sans",sans-serif;font-size:.66rem;opacity:.82;margin-top:.28rem;text-transform:uppercase;letter-spacing:.08em}@media(max-width:480px){.brand-wordmark strong{font-size:.88rem}.brand-wordmark small{font-size:.58rem}}
+.brand-logo { width: 118px; height: 76px; object-fit: contain; display: block; }
+.footer .brand-logo { width: 150px; height: 118px; margin-bottom: 18px; }
+.navbar-brand { min-height: 76px; }
+.navbar .nav-link .fa-facebook-f { color: #1877F2 !important; }
+@media (max-width: 480px) { .brand-logo { width: 92px; height: 64px; } .navbar-brand { min-height: 64px; } }
