@@ -728,27 +728,11 @@
     color: var(--bs-white) !important;
 }
 
-.footer a[href*="facebook.com"] i,
-a[href*="facebook.com"] .fa-facebook-f,
-a[href*="facebook.com"] .fa-facebook,
-a[href*="facebook.com"] .fa-facebook-square {
-    color: #1877F2 !important;
-}
-
 .footer a[href*="wa.me"] i,
 .footer a[href*="whatsapp"] i,
 a[href*="wa.me"] .fa-whatsapp,
 a[href*="whatsapp"] .fa-whatsapp {
     color: #25D366 !important;
-}
-
-.footer a[href*="facebook.com"],
-.footer a[href*="wa.me"],
-.footer a[href*="whatsapp"],
-.footer .btn[href*="facebook.com"],
-.footer .btn[href*="wa.me"] {
-    background: var(--bs-white) !important;
-    border-color: var(--bs-white) !important;
 }
 
 /*** Readable Text On Colored Backgrounds ***/
@@ -887,13 +871,6 @@ a[href*="whatsapp"] .fa-whatsapp {
 .footer .btn-sm-square,
 .footer a.btn-sm-square,
 .footer a.btn.btn-primary.btn-sm-square,
-a.btn-sm-square[href*="facebook.com"],
-a.btn-sm-square[href*="wa.me"] {
-    background: #ffffff !important;
-    border-color: #ffffff !important;
-    color: inherit !important;
-}
-
 .footer .btn-sm-square i,
 a.btn-sm-square i { font-size: 16px; }
 

@@ -2,16 +2,82 @@
   "schema_version": 1,
   "source": "code-archive",
   "capabilities": [
-    {"capability":"page structure and styling","source":"attached TanStack/static HTML archive","outcome":"preserve","status":"planned","next_action":"copy safe source files and replace content without changing composition"},
-    {"capability":"English and Bangla presentation","source":"paired HTML pages and local language switcher","outcome":"preserve","status":"planned","next_action":"update both page variants and translation content"},
-    {"capability":"appointment and contact actions","source":"phone, WhatsApp, contact and appointment pages","outcome":"preserve","status":"planned","next_action":"replace every action with 01717-497858 and remove unspecified email/social links"},
-    {"capability":"doctor and medical imagery","source":"legacy image set","outcome":"replace","status":"planned","next_action":"use the two supplied doctor photos and generated logo-free urology images"},
-    {"capability":"gallery lightbox and interactive service cards","source":"static JavaScript","outcome":"preserve","status":"planned","next_action":"retain behavior and validate interactions"},
-    {"capability":"CMS editing endpoint","source":"public/js/cms-content.js references /api/public/cms/content","outcome":"remove","status":"planned","next_action":"remove obsolete endpoint dependency and cached legacy overrides"},
-    {"capability":"database records","source":"none detected","outcome":"not_applicable","status":"verified","next_action":"none"},
-    {"capability":"authentication","source":"none detected","outcome":"not_applicable","status":"verified","next_action":"none"},
-    {"capability":"external providers and secrets","source":"none detected","outcome":"not_applicable","status":"verified","next_action":"none"},
-    {"capability":"SEO metadata","source":"route and page metadata","outcome":"replace","status":"planned","next_action":"use Dr. Md. Habibur Rahman-specific metadata on all public pages"},
-    {"capability":"verification","source":"desktop and mobile preview","outcome":"preserve","status":"planned","next_action":"check every page, contact link, image, and interactive flow"}
+    {
+      "capability": "page structure and styling",
+      "source": "attached TanStack/static HTML archive",
+      "outcome": "preserve",
+      "status": "implemented",
+      "next_action": "verify in preview"
+    },
+    {
+      "capability": "English and Bangla presentation",
+      "source": "paired HTML pages and local language switcher",
+      "outcome": "preserve",
+      "status": "implemented",
+      "next_action": "verify in preview"
+    },
+    {
+      "capability": "appointment and contact actions",
+      "source": "phone, WhatsApp, contact and appointment pages",
+      "outcome": "preserve",
+      "status": "implemented",
+      "next_action": "verify in preview"
+    },
+    {
+      "capability": "doctor and medical imagery",
+      "source": "legacy image set",
+      "outcome": "replace",
+      "status": "implemented",
+      "next_action": "verify in preview"
+    },
+    {
+      "capability": "gallery lightbox and interactive service cards",
+      "source": "static JavaScript",
+      "outcome": "preserve",
+      "status": "implemented",
+      "next_action": "verify in preview"
+    },
+    {
+      "capability": "CMS editing endpoint",
+      "source": "public/js/cms-content.js references /api/public/cms/content",
+      "outcome": "remove",
+      "status": "implemented",
+      "next_action": "verify in preview"
+    },
+    {
+      "capability": "database records",
+      "source": "none detected",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "authentication",
+      "source": "none detected",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "external providers and secrets",
+      "source": "none detected",
+      "outcome": "not_applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "SEO metadata",
+      "source": "route and page metadata",
+      "outcome": "replace",
+      "status": "implemented",
+      "next_action": "verify in preview"
+    },
+    {
+      "capability": "verification",
+      "source": "desktop and mobile preview",
+      "outcome": "preserve",
+      "status": "implemented",
+      "next_action": "verify in preview"
+    }
   ]
 }
