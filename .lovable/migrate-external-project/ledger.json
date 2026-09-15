@@ -6,43 +6,43 @@
       "capability": "page structure and styling",
       "source": "attached TanStack/static HTML archive",
       "outcome": "preserve",
-      "status": "implemented",
-      "next_action": "verify in preview"
+      "status": "verified",
+      "next_action": "none"
     },
     {
       "capability": "English and Bangla presentation",
       "source": "paired HTML pages and local language switcher",
       "outcome": "preserve",
-      "status": "implemented",
-      "next_action": "verify in preview"
+      "status": "verified",
+      "next_action": "none"
     },
     {
       "capability": "appointment and contact actions",
       "source": "phone, WhatsApp, contact and appointment pages",
       "outcome": "preserve",
-      "status": "implemented",
-      "next_action": "verify in preview"
+      "status": "verified",
+      "next_action": "none"
     },
     {
       "capability": "doctor and medical imagery",
       "source": "legacy image set",
       "outcome": "replace",
-      "status": "implemented",
-      "next_action": "verify in preview"
+      "status": "verified",
+      "next_action": "none"
     },
     {
       "capability": "gallery lightbox and interactive service cards",
       "source": "static JavaScript",
       "outcome": "preserve",
-      "status": "implemented",
-      "next_action": "verify in preview"
+      "status": "verified",
+      "next_action": "none"
     },
     {
       "capability": "CMS editing endpoint",
       "source": "public/js/cms-content.js references /api/public/cms/content",
       "outcome": "remove",
-      "status": "implemented",
-      "next_action": "verify in preview"
+      "status": "verified",
+      "next_action": "none"
     },
     {
       "capability": "database records",
@@ -69,15 +69,15 @@
       "capability": "SEO metadata",
       "source": "route and page metadata",
       "outcome": "replace",
-      "status": "implemented",
-      "next_action": "verify in preview"
+      "status": "verified",
+      "next_action": "none"
     },
     {
       "capability": "verification",
       "source": "desktop and mobile preview",
       "outcome": "preserve",
-      "status": "implemented",
-      "next_action": "verify in preview"
+      "status": "verified",
+      "next_action": "none"
     }
   ]
 }
