@@ -17,7 +17,26 @@ const documents: Record<SitePage, string> = {
 };
 
 function prepareDocument(html: string) {
-  return html.replace("<head>", '<head><base href="/" target="_top">');
+  const routes: Record<string, string> = {
+    "index.html": "/",
+    "index2.html": "/",
+    "about.html": "/about",
+    "about2.html": "/about",
+    "service.html": "/services",
+    "service2.html": "/services",
+    "gallery.html": "/gallery",
+    "gallery2.html": "/gallery",
+    "contact.html": "/contact",
+    "contact2.html": "/contact",
+    "appoinment.html": "/appointment",
+    "appoinment2.html": "/appointment",
+  };
+
+  let prepared = html;
+  for (const [file, route] of Object.entries(routes)) {
+    prepared = prepared.replaceAll(`href="${file}"`, `href="${route}" target="_top"`);
+  }
+  return prepared.replace("<head>", '<head><base href="/" target="_top">');
 }
 
 export function LegacySite({ page }: { page: SitePage }) {
