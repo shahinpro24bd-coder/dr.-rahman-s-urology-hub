@@ -468,8 +468,7 @@ if (btnLibrary) {
     }
 
     window.switchSiteLanguage = applyLanguage;
-    var savedLanguage = 'en';
-    try { savedLanguage = localStorage.getItem('site-language') || 'en'; } catch (error) { /* use defaults */ }
+    var savedLanguage = 'en'; // English only — language toggle removed
     applyThemeColor(THEME_COLOR);
     applyLanguage(savedLanguage);
 
