@@ -1049,8 +1049,8 @@
 <textarea id="appo17" name="message" placeholder="আপনার সমস্যা বর্ণনা করুন বা অতিরিক্ত তথ্য দিন"></textarea>
 </div>
 <button class="appo8" onclick="sendToAppointment()" type="button">
-<i class="fab fa-phone"></i>
-                                অ্যাপয়েন্টমেন্ট বুক করুন
+<i class="fab fa-whatsapp"></i>
+                                WhatsApp-এ অ্যাপয়েন্টমেন্ট পাঠান
                             </button>
 </form>
 </div>
@@ -1323,18 +1323,18 @@
             // Encode the message
             const encodedMessage = encodeURIComponent(formattedMessage);
             
-            // Appointment phone number (without + and 0)
-            const phoneNumber = "01717497858";
+            // WhatsApp number (international format, no + or leading 0)
+            const phoneNumber = "8801717497858";
             
-            // Create Appointment URL
-            const callURL = `tel:${phoneNumber}`;
+            // Create WhatsApp URL with the form details
+            const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
             
             // Show success notification
-            showNotification('ধন্যবাদ! অ্যাপয়েন্টমেন্ট নিশ্চিত করতে 01717-497858 নম্বরে কল করা হচ্ছে...', 'success');
+            showNotification('ধন্যবাদ! আপনার তথ্যসহ WhatsApp খোলা হচ্ছে...', 'success');
             
-            // Open Appointment in a new tab after a short delay
+            // Open WhatsApp in a new tab after a short delay
             setTimeout(() => {
-                window.location.href = callURL;
+                window.open(whatsappURL, '_blank');
             }, 500);
         }
         
