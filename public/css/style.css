@@ -876,6 +876,11 @@ a.btn-sm-square i { font-size: 16px; }
 
 .fa-facebook-f, .fa-facebook, .fa-facebook-square { color: #1877F2 !important; }
 .fa-whatsapp { color: #25D366 !important; }
+/* Icons explicitly marked white (e.g. on colored chips) must stay white */
+.fa-facebook-f.text-white, .fa-whatsapp.text-white, .fa-phone.text-white,
+i.fab.text-white, i.fas.text-white { color: #fff !important; }
+/* Footer call button: white button needs a colored phone icon like its siblings */
+.footer .btn-sm-square .fa-phone, .footer a .fa-phone { color: var(--bs-primary) !important; }
 .fa-youtube, .fa-youtube-square { color: #FF0000 !important; }
 .fa-instagram, .fa-instagram-square { color: #E1306C !important; }
 .fa-twitter, .fa-x-twitter { color: #1DA1F2 !important; }
